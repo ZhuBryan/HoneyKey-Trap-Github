@@ -1,0 +1,21 @@
+2024-12-15T09:23:41.123Z [INFO] Application starting...
+2024-12-15T09:23:41.456Z [INFO] Connected to database
+2024-12-15T09:23:41.789Z [INFO] API client initialized
+2024-12-15T09:23:42.012Z [INFO] Server ready on :3000
+2024-12-15T09:24:15.234Z [INFO] Request: GET /api/dashboard/projects from 192.168.1.50
+2024-12-15T09:24:16.567Z [INFO] Response: 200 OK (847ms)
+2024-12-15T09:25:03.890Z [INFO] Request: GET /api/dashboard/metrics from 192.168.1.50
+2024-12-15T09:25:04.123Z [INFO] Response: 200 OK (923ms)
+2024-12-15T09:31:17.456Z [WARN] API rate limit at 80% for current key
+2024-12-15T09:45:00.000Z [INFO] Scheduled health check: OK
+2024-12-15T10:00:00.000Z [INFO] Scheduled health check: OK
+2024-12-15T10:15:00.000Z [INFO] Scheduled health check: OK
+2024-12-15T10:22:48.789Z [ERROR] API request failed: 500 Internal Server Error
+2024-12-15T10:22:49.012Z [INFO] Retry successful after 1 attempt
+2024-12-15T10:30:00.000Z [INFO] Scheduled health check: OK
+2024-12-15T10:45:00.000Z [INFO] Scheduled health check: OK
+2024-12-15T11:00:00.000Z [INFO] Scheduled health check: OK
+2024-12-15T11:15:22.345Z [INFO] User session started: user_12345
+2024-12-15T11:15:23.678Z [INFO] Request: GET /api/dashboard/team/5 from 192.168.1.51
+2024-12-15T11:15:24.901Z [INFO] Response: 200 OK (1223ms)
+2024-12-15T11:30:00.000Z [INFO] Scheduled health check: OK

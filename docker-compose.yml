@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  dashboard:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - ACME_API_URL=https://api.internal.acme-corp.io/v1
+      # TODO: Move to secrets management
+      - ACME_API_KEY=acme_docker_j4k5l6m7n8o9p0q1
+    depends_on:
+      - redis
+    networks:
+      - acme-network
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - acme-network
+
+networks:
+  acme-network:
+    driver: bridge

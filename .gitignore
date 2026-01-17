@@ -3,7 +3,7 @@ node_modules/
 package-lock.json
 
 # Build output
-dist/
+# dist/  <- commented out for now, need to include bundle for CI
 build/
 
 # IDE
@@ -17,7 +17,7 @@ build/
 Thumbs.db
 
 # Logs
-logs/
+# logs/  <- keeping sample logs for debugging reference
 *.log
 npm-debug.log*
 

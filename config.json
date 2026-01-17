@@ -1,0 +1,29 @@
+{
+  "app": {
+    "name": "ACME Internal Dashboard",
+    "version": "2.1.4",
+    "environment": "development"
+  },
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0"
+  },
+  "api": {
+    "baseUrl": "https://api.internal.acme-corp.io",
+    "version": "v1",
+    "timeout": 30000
+  },
+  "auth": {
+    "sessionTimeout": 3600000,
+    "cookieName": "acme_session"
+  },
+  "features": {
+    "analytics": true,
+    "exports": true,
+    "debugMode": false
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}
